@@ -39,7 +39,7 @@ export default function SubscribeModal({ open, onClose }) {
     });
 
     const data = await res.json();
-    console.log("RAW RESPONSE:", text);
+    console.log("RAW RESPONSE:", data);
     setLoading(false);
 
     if (data.coupon) {
