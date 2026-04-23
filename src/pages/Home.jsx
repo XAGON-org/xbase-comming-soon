@@ -8,7 +8,7 @@ export default function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setOpen(true);
-    }, 3500); // not annoying, not late
+    }, 2500); // not annoying, not late
 
     return () => clearTimeout(timer);
   }, []);
